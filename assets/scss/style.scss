@@ -10,7 +10,7 @@
     src: url("../font/AvenirNextLTPro-Regular.otf");
 }
 
-$white: #ECEFDB;
+$white: #EFEFEF;
 $black: #05040B;
 $red: #F44646;
 
@@ -64,7 +64,10 @@ a {
 
 .h1 {
     font-family: "AvenirBold";
-    font-size: 5.5rem;
+    font-size: 4.5rem;
+    @include laptop {
+        font-size: 5.5rem;
+    }
 }
 
 .h2 {

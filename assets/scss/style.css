@@ -31,7 +31,7 @@
 }
 
 body {
-  background-color: #ECEFDB;
+  background-color: #EFEFEF;
 }
 
 .container {
@@ -68,7 +68,13 @@ a {
 
 .h1 {
   font-family: "AvenirBold";
-  font-size: 5.5rem;
+  font-size: 4.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .h1 {
+    font-size: 5.5rem;
+  }
 }
 
 .h2 {
@@ -154,7 +160,7 @@ span {
   position: fixed;
   top: 0;
   left: -100%;
-  background-color: #ECEFDB;
+  background-color: #EFEFEF;
   width: 100%;
   height: 100vh;
   padding: 6.5rem 0 0 0;
